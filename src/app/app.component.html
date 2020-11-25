@@ -1,0 +1,32 @@
+<!-- <div class="highcharts-figure">
+  
+  <highcharts-chart [Highcharts]="Highcharts" [options]="chartOptions" style="width: 100%; height: 100%;">
+  </highcharts-chart>
+  
+  <p class="highcharts-description">
+    Basic line chart showing trends in a dataset. This chart includes the
+    <code>series-label</code> module, which adds a label to each line for
+    enhanced readability.
+  </p>
+</div> -->
+
+<div>
+  <highcharts-chart
+    style="width: 100%; display: block"
+    [Highcharts]="Highcharts"
+    [options]="chartOptions1"
+  >
+  </highcharts-chart>
+
+  <highcharts-chart
+    style="width: 100%; display: block"
+    [Highcharts]="Highcharts"
+    [options]="chartOptions2"
+  >
+  </highcharts-chart>
+
+  <div id="buttonrow">
+    <button id="export-png" (click)="export2Png()">Export to PNG</button>
+    <button id="export-pdf" (click)="export2Pdf()">Export to PDF</button>
+  </div>
+</div>
