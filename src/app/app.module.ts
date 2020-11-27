@@ -6,10 +6,16 @@ import { AppComponent } from './app.component';
 
 import { HighchartsChartModule } from 'highcharts-angular';
 import { FormsModule } from '@angular/forms';
+import { LayoutComponent } from './dashboard/layout/layout.component';
+import { LineChartsComponent } from './dashboard/page/line-charts/line-charts.component';
+import { AreaChartsComponent } from './dashboard/page/area-charts/area-charts.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LayoutComponent,
+    LineChartsComponent,
+    AreaChartsComponent
   ],
   imports: [
     BrowserModule,
