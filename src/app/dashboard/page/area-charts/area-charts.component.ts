@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import { Options } from 'highcharts';
-import HC_more from 'highcharts/highcharts-more';
-import HC_exporting from 'highcharts/modules/exporting';
 
 @Component({
   selector: 'app-area-charts',
