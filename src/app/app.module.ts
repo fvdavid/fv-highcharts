@@ -9,13 +9,15 @@ import { FormsModule } from '@angular/forms';
 import { LayoutComponent } from './dashboard/layout/layout.component';
 import { LineChartsComponent } from './dashboard/page/line-charts/line-charts.component';
 import { AreaChartsComponent } from './dashboard/page/area-charts/area-charts.component';
+import { BarChartsComponent } from './dashboard/page/bar-charts/bar-charts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutComponent,
     LineChartsComponent,
-    AreaChartsComponent
+    AreaChartsComponent,
+    BarChartsComponent
   ],
   imports: [
     BrowserModule,
