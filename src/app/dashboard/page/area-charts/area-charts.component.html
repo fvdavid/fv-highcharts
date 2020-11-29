@@ -1,1 +1,15 @@
-<p>area-charts works!</p>
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Area Charts</h1>
+</div>
+
+<div class="table-responsive">
+    <div>
+        <highcharts-chart style="width: 100%; display: block" [Highcharts]="Highcharts" [options]="chartAreaOptions">
+        </highcharts-chart>
+
+        <!-- <div id="buttonrow">
+            <button id="export-png" (click)="export2Png()">Export to PNG</button>
+            <button id="export-pdf" (click)="export2Pdf()">Export to PDF</button>
+        </div> -->
+    </div>
+</div>
